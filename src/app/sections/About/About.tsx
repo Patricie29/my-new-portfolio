@@ -2,7 +2,6 @@ import Bounded from '@/app/components/Bounded'
 import Button from '@/app/components/Button'
 import Heading from '@/app/components/Heading'
 import { FC } from 'react'
-// import myAvatar from '@/public/Avatar/11.jpg'
 import Avatar from '@/app/components/Avatar';
 
 
