@@ -21,12 +21,18 @@ const About: FC<AboutProps> = ({ }) => {
 
                 <div className="prose prose-lg prose-slate prose-invert col-start-1">
                     <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. At numquam unde assumenda, accusantium blanditiis quo illum nulla, fugit dolorem, enim voluptatem eligendi deserunt! Ullam animi non asperiores saepe eveniet necessitatibus earum ad minima temporibus labore quisquam impedit omnis voluptas ipsa blanditiis, laudantium rerum? Dolorem facilis consequatur at cupiditate dicta explicabo.
+                        Hey! I'm Patricie, diving deep into front-end development with a special spot for web3 and crypto. My self-taught journey has led me to Timecloud, where I mix creativity with code every day.
+                        <br />
+                        Besides coding, I'm all about staying active - whether it's Muay Thai, catching waves, or exploring the underwater world through diving. These activities keep me balanced and fuel my creativity back at work.
+
+                        <br />
+
+                        I believe in clear, straightforward communication and working together to get things done. I love sharing ideas and learning from others. Keeping life and work in harmony, pushing boundaries in tech, and always being ready for the next big wave or project!
                     </p>
                 </div>
 
                 <Button
-                    linkField='/resume/01_Patricie_Bakosova_Resume.pdf' // Adjust the path if necessary
+                    linkField='/resume/01_Patricie_Bakosova_Resume.pdf'
                     label='Download Resume'
                 />
 

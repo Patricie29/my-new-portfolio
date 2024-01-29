@@ -27,6 +27,9 @@ canvas {
     animation: fade-in 5s ease 1s forwards;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 
 /* Hide scrollbar for all browsers */

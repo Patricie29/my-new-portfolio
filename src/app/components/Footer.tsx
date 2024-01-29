@@ -1,8 +1,9 @@
 import { FC } from 'react'
 import Bounded from './Bounded';
 import Link from "next/link";
-import { SiGithub } from 'react-icons/si';
-import { FaLinkedin } from 'react-icons/fa';
+import { SiGithub, SiMarkdown } from 'react-icons/si';
+import { FaInstagram, FaLinkedin } from 'react-icons/fa';
+import { IoMdDownload } from "react-icons/io";
 
 interface FooterProps {
 
@@ -18,7 +19,10 @@ const Footer: FC<FooterProps> = ({ }) => {
         {
             link: 'https://www.linkedin.com/in/patricie-bakosova-9a7107270/',
             icon: <FaLinkedin />
-
+        },
+        {
+            link: 'https://www.instagram.com/ourr.travels/',
+            icon: <FaInstagram />
         }
     ]
     return (
@@ -48,10 +52,14 @@ const Footer: FC<FooterProps> = ({ }) => {
 
                             <li key={index} className='group relative block overflow-hidden rounded px-3 py-1 text-3xl font-bold text-slate-100 transition-colors duration-150 hover:hover:text-yellow-400'>
                                 <a href={link} target="_blank" rel='noreferrer'>{icon}</a>
-
                             </li>
 
                         ))}
+
+                        <li className='group relative block overflow-hidden rounded px-3 py-1 text-3xl font-bold text-slate-100 transition-colors duration-150 hover:hover:text-yellow-400'>
+                            <a href='/resume/01_Patricie_Bakosova_Resume.pdf' download><IoMdDownload /></a>
+                        </li>
+
                     </ul>
                 </nav>
             </div>

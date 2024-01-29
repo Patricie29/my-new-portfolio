@@ -75,11 +75,7 @@ const Hero: FC<HeroProps> = ({ }) => {
 
 
     return (
-        <Bounded
-            // data-slice-type={slice.slice_type}
-            // data-slice-variation={slice.variation}
-            ref={component}
-        >
+        <Bounded ref={component}>
 
             <div className="grid min-h-[70vh] grid-cols-1 md:grid-cols-2 items-center">
                 <Shapes />

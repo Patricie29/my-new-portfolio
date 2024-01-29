@@ -3,12 +3,12 @@
 import * as THREE from 'three'
 import { useRef, useState } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
-import { Image, Environment, ScrollControls, useScroll, useTexture } from '@react-three/drei'
+import { Image, Environment, ScrollControls, useScroll, useTexture, ContactShadows } from '@react-three/drei'
 import { easing } from 'maath'
 import '@/app/utils'
 
 const Projects = () => (
-  <div className='md:mt-0 h-[65vh] overflow-hidden'>
+  <div className='md:mt-0 h-[65vh] overflow-hidden' id='work'>
 
     <Canvas style={{ width: '102%' }} camera={{ position: [0, 0, 100], fov: 15 }}>
       <fog attach="fog" args={['#a79', 8.5, 12]} />
@@ -107,7 +107,7 @@ function Card({ url, linkUrl, ...props }) {
 function Banner(props) {
 
   const ref = useRef()
-  const texture = useTexture('/work_.png')
+  const texture = useTexture('/work2_.png')
   texture.wrapS = texture.wrapT = THREE.RepeatWrapping
   const scroll = useScroll()
 
