@@ -21,9 +21,9 @@ const About: FC<AboutProps> = ({ }) => {
 
                 <div className="prose prose-lg prose-slate prose-invert col-start-1">
                     <p>
-                        Hey! I'm Patricie, diving deep into front-end development with a special spot for web3 and crypto. My self-taught journey has led me to Timecloud, where I mix creativity with code every day.
+                        Hey! I&apos;m Patricie, diving deep into front-end development with a special spot for web3 and crypto. My self-taught journey has led me to Timecloud, where I mix creativity with code every day.
                         <br />
-                        Besides coding, I'm all about staying active - whether it's Muay Thai, catching waves, or exploring the underwater world through diving. These activities keep me balanced and fuel my creativity back at work.
+                        Besides coding, I&apos;m all about staying active - whether it&apos;s Muay Thai, catching waves, or exploring the underwater world through diving. These activities keep me balanced and fuel my creativity back at work.
 
                         <br />
 
