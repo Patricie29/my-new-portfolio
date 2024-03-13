@@ -44,9 +44,9 @@ function Carousel({ radius = 1.4, count = 8 }) {
     { img: '/img3_.png', linkUrl: 'https://nft-horizon.vercel.app/nft' },
     { img: '/img4_.png', linkUrl: 'https://www.cryptonewbie.net/currencies/swap' },
     { img: '/img5_.png', linkUrl: 'https://nft-horizon.vercel.app/' },
-    { img: '/img6_.png', linkUrl: 'https://nft-horizon.vercel.app/nft' },
+    { img: '/img6_.png', linkUrl: 'https://crossingcrypto.vercel.app/' },
     { img: '/img7_.png', linkUrl: 'https://cryptonewbie.net' },
-    { img: '/img8_.png', linkUrl: 'https://www.cryptonewbie.net/currencies/swap' },
+    { img: '/img8_.png', linkUrl: 'https://crossingcrypto.vercel.app/' },
   ];
 
   return items.map((item, i, arr) => (
