@@ -3,6 +3,7 @@ import { Urbanist } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import { Analytics } from "@vercel/analytics/react"
 
 const urbanist = Urbanist({ subsets: ["latin"] });
 
@@ -26,7 +27,7 @@ export default function RootLayout({
         <div className="background-gradient absolute inset-0 -z-50 max-h-screen" />
 
         <Footer />
-
+        <Analytics />
       </body>
     </html>
   );
