@@ -57,7 +57,7 @@ const Footer: FC<FooterProps> = ({ }) => {
                         ))}
 
                         <li className='group relative block overflow-hidden rounded px-3 py-1 text-3xl font-bold text-slate-100 transition-colors duration-150 hover:hover:text-yellow-400'>
-                            <a href='/resume/01_Patricie_Bakosova_Resume.pdf' download><IoMdDownload /></a>
+                            <a href='/Resume/01_Patricie_Bakosova_Resume.pdf' download><IoMdDownload /></a>
                         </li>
 
                     </ul>

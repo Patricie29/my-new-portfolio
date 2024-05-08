@@ -31,7 +31,7 @@ const About: FC<AboutProps> = ({ }) => {
                 </div>
 
                 <Button
-                    linkField='/resume/01_Patricie_Bakosova_Resume.pdf'
+                    linkField='/Resume/01_Patricie_Bakosova_Resume.pdf'
                     label='Download Resume'
                 />
 
